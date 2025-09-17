@@ -1,0 +1,67 @@
+body {
+    margin: auto;
+    background-color: #73c71b;
+    position: relative;
+}
+
+.road {
+    width: 500px;
+    height: 100vh;
+    background-color: dimgray;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.car {
+    position: absolute;
+    bottom: 20px;
+    left: 1000px;
+    z-index: 1;
+}
+
+.car-body {
+    width: 100px;
+    height: 200px;
+    background-color: red;
+    z-index: 1;
+    position: relative;
+}
+
+.wheel {
+    background-color: black;
+    width: 20px;
+    height: 50px;
+    position: absolute;
+}
+
+.wheel1 {
+    top: 5px;
+    left: -5px;
+}
+
+.wheel2 {
+    top: 5px;
+    right: -5px;
+}
+
+.wheel3 {
+    bottom: 5px;
+    left: -5px;
+}
+
+.wheel4 {
+    bottom: 5px;
+    right: -5px;
+}
+
+.div-line {
+    position: absolute;
+    background-color: white;
+    width: 5px;
+    height: 200px;
+    top: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
